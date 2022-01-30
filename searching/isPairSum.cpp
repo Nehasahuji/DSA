@@ -33,8 +33,8 @@ isPairSumEfficient(int arr[],int n,int val){
 
 
 int main(){
-	int arr[] = { 2, 3, 5, 8, 9, 10, 11 };
-    int val = 17;
+	int arr[] = {2,7,11,15};
+    int val = 9;
     int arrSize = *(&arr + 1) - arr;
 //    sort(arr, arr + arrSize); 
     cout << isPairSumEfficient(arr, arrSize, val);

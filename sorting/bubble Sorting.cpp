@@ -1,37 +1,31 @@
-#include<iostream>
-using namespace std;
+===================================================================================================
+kafka
+1. https://apptio.udemy.com/course/apache-kafka/
+2. https://apptio.udemy.com/course/kafka-connect/
+3. https://apptio.udemy.com/course/kafka-streams/
+4. https://apptio.udemy.com/course/kafka-cluster-setup/
+5. https://apptio.udemy.com/course/confluent-schema-registry/
+==================================================================================================
 
-bubbleSort(int arr[],int n){
-	int count=1;
-	while(count<n){
-		for(int i=0;i<n-count;i++){
-			if(arr[i]>arr[i+1]){
-				int temp;
-				temp=arr[i];
-				arr[i]=arr[i+1];
-				arr[i+1]=temp;
-			}
-		}
-		count++;
-	}
-	
-	for(int i=0;i<n;i++){
-   	cout << arr[i] << " ";
-   }
-  	
-}
+rdbms
+1. https://apptio.udemy.com/course/database-course/
+==================================================================================================
 
-int main(){
+casendra
+1. https://apptio.udemy.com/course/learn-cassandra-from-scratch/
+2. https://apptio.udemy.com/course/from-0-to-1-the-cassandra-distributed-database/
+=================================================================================================
 
-   int arr[] = {4,6,1,2,5,7};
-   int n=sizeof(arr)/sizeof(arr[0]);
-   
-    cout << "before sorting of array: ";
-   
-   for(int i=0;i<n;i++){
-   	cout << arr[i] << " ";
-   }
-  	
-  cout <<endl << "after sorting of array: ";
-  bubbleSort(arr,n);
-}
+druid 
+Have a view on you tube
+
+aws ec2 s3
+1. https://apptio.udemy.com/course/aws-certified-developer-associate-dva-c01/
+================================================================================================
+
+elastic search
+1. https://apptio.udemy.com/course/elasticsearch-complete-guide/
+2. https://apptio.udemy.com/course/practical-java-spring-boot-rest-api-with-elasticsearch/
+
+
+
